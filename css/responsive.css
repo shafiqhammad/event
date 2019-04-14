@@ -1,0 +1,50 @@
+@media(min-width: 768px){
+
+  .timeline li::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  .timeline .hexa {
+    left: -50px;
+    right: auto;
+    top: 150px;
+  }
+
+  .timeline .direction-l .hexa {
+    float: right;
+    right: -50px;
+    left: auto;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+}
+
+@media(min-width: 992px){
+
+  .direction-l {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+}
+
